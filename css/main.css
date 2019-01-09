@@ -1,0 +1,304 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.test{
+    top: 3%;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    display: block;
+    
+}
+
+.test2{
+    top: 22%;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+.BG_FAQ{
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.faq4{
+    margin: auto;
+    display: block;
+    text-align: center;
+    top: 55%;
+    padding-top: 10%;
+}
+
+
+
+@media (max-width: 375px) {
+  .hero {
+   padding-right: 0px;
+    }
+}
+
+@media (max-width: 320px) {
+  .test {
+   font-size: 8px;
+      top: 0%;
+    }
+}
+
+@media (max-width: 414px) {
+  .test {
+   font-size: 12px;
+      top: 10%;
+    }
+}
+
+@media (max-width: 360px) {
+  .test {
+   font-size: 12px;
+      top: 3%;
+    }
+}
+
+
+
+.hero{
+    top: 20%;
+    margin: auto;
+    display: block;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    
+}
+
+@media (max-width: 500px) {
+  .hero {
+    z-index: 15;
+    top: 35%;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    }
+}
+
+.heroImage{
+    width: 60%;
+}
+
+.homeBG{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.contactBG{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.signupBG{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.partnersBG{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.deliverablesBG{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.ScheduleBG{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.themeBG{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.WhatIsBG{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(images/WhatIsStartUp_BG.png);
+    width: 100%;
+    height: 100%;
+}
+
+.FAQ_BG{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.newFAQ{
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.themeBG{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+
+.portfolio_nav{
+    position: fixed;
+    left: 3.2%;
+    top: 25%;
+    z-index: 1000;
+    list-style-type: none;
+    color: #ffffff;
+}
+
+.portfolio_nav a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: .4s;
+}
+
+.portfolio_nav a:hover{
+    text-decoration: none;
+    color: white;
+    transition: .4s linear;
+    font-size: 18px;
+}
+
+
+@media screen and (max-width: 500px) {
+  .portfolio_nav a {
+      visibility: hidden;
+
+  } 
+}
+
+@media screen and (max-width: 1024px) {
+  .portfolio_nav a {
+      visibility: hidden;
+
+  } 
+}
+
+
+
+.header {
+  overflow: hidden;
+  background-color: transparent;
+  padding: 35px 30px;
+    position: fixed;
+}
+
+.header a {
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+.headerLogo:hover{
+    transform: scale(1.05);
+    transition: .2s ease;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 1000px) {
+  .header a {
+  visibility: hidden;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+
+.fa:hover{
+    transform: scale(1.2);
+    transition: .2s ease;
+}
+
+@media screen and (max-width: 500px) {
+        .popuptext{
+            display: none;
+    }
+}
+
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+        
+.popup .popuptext {
+  visibility: hidden;
+  width: 260px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -115%;
+}
+
+
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
